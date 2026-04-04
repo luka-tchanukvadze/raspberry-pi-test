@@ -5,6 +5,8 @@ app.get("/", (req, res) => {
   res.send("Hello from Raspberry Pi server 👌");
 });
 
+// testing pm2 / auto deployment
+
 app.get("/test", (req, res) => {
   res.send("Hello from laptop edit!");
 });
